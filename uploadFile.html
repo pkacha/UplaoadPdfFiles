@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Files</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Upload Your Images</h1>
+      <form method="post" enctype="multipart/form-data">
+      <input type="file" name="file" id="file" multiple />
+      <button type="button" id="btnUpload">Upload Files!</button>
+</form>
+      <div id="response"></div>
+      <ul id="image-list"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="upload.js"></script>
+</body>
+  </body>
+</html>
